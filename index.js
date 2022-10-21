@@ -55,4 +55,24 @@ inquirer
   ])
   .then((response) => {
     console.log(response)
-  })
+    const rmSkeleton =
+    '# title
+
+    ## Description
+    
+    ## Install
+    
+    ## Usage
+    
+    ## Credits
+    
+    ## License
+    
+    ## Badges
+    
+    ## Features
+    
+    ## Contributions
+    
+    ## Tests'
+  });
