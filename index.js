@@ -1,8 +1,8 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-const rmskleton = (response) =>
-'# ${response.title}
+const rmskeleton = (response) =>
+`# ${response.title}
 
 * [Decription](#Description) 
 * [Install](#Install)
@@ -30,7 +30,7 @@ ${response.features}
 ## Constribution
 ${response.help}
 ## Tests
-${response.tests}';
+${response.tests}`;
 
 inquirer
   .prompt([
