@@ -34,7 +34,10 @@ ${response.features}
 ## Constribution
 ${response.help}
 ## Tests
-${response.tests}`;
+${response.tests}
+## Questions
+${response.question}`;
+
 
 inquirer
   .prompt([
@@ -82,6 +85,11 @@ inquirer
       message: 'Does your program have any specific features?',
       name: 'features',
       },
+      {
+        type: 'input',
+        message: 'If other developers want to contribute what guidelines are there?',
+        name: 'help'
+        },
       {
       type: 'input',
       message: 'If you ran tests, what were they?',
