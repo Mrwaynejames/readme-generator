@@ -1,6 +1,6 @@
 #  
 
-![badge](https://img.shields.io/badge/license-Apache-brightgreen)
+![badge](https://img.shields.io/badge/license-MIT-brightgreen)
 
 ## Description
  
@@ -17,6 +17,7 @@
 * [Tests](#Tests)
 * [Questions](#Questions)
 
+
 ## Install
  
 ## Usage
@@ -24,8 +25,8 @@
 ## Credits
  
 ## License
-![badge](https://img.shields.io/badge/license-Apache-brightgreen)
-This progtam uses Apache License
+![badge](https://img.shields.io/badge/license-MIT-brightgreen)
+This progtam uses MIT License
 ## Features
  
 ## Constribution
