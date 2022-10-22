@@ -29,8 +29,6 @@ ${response.credits}
 ## License
 ![badge](https://img.shields.io/badge/license-${response.license}-brightgreen)
 This progtam uses ${response.license} License
-## Badges
-${response.badges}
 ## Features
 ${response.features}
 ## Constribution

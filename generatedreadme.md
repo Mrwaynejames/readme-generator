@@ -19,9 +19,7 @@ I designed this program to help make an well structured and efficient readme.md.
 ## Install
 You install it using initate it using node.js inquirer
 ## Usage
-Respomnd to the prompts that are applicable to your promgram. Once you enter a prompt press enter , if you dont need to answer that prompt press enter and it will move you forward to the next question. when you are all finished you will get a "Success!" at the bottom of your terminal
-## Credits
-
+Respomnd to the prompts that are applicable to your promgram. Once you enter a prompt press enter , if you dont need to answer that prompt hit the space bar and then press enter and it will move you forward to the next question, leaving that prompt blank. when you are all finished you will get a "Success!" at the bottom of your terminal
 ## License
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
 This progtam uses MIT License
