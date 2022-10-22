@@ -1,5 +1,11 @@
-# dfg
+# rm
 
+![badge](https://img.shields.io/badge/license-MIT-brightgreen)
+
+## Description
+generates a readme
+
+## Table of Contents
 * [Decription](#Description) 
 * [Install](#Install)
 * [Usage](#Usage) 
@@ -9,21 +15,17 @@
 * [Features](#Features)
 * [Contributions](#Constribution)
 * [Tests](#Tests)
-## Description
-sdfg
-## Install
-sdf
+
+## Installation
+using node.js
 ## Usage
-sdf
-## Credits
-sdf
+answer the prompts
 ## License
-sdf
-## Badges
-sdf
+MIT
+## Credits
+
 ## Features
-sdf
-## Constribution
-sdf
+besdies layingn out questions for you
 ## Tests
-undefined
+
+## Questions

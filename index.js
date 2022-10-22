@@ -4,6 +4,12 @@ const fs = require('fs');
 const rmskeleton = (response) =>
 `# ${response.title}
 
+![badge](https://img.shields.io/badge/license-${response.license}-brightgreen)
+
+## Description
+${response.description}
+
+## Table of Contents
 * [Decription](#Description) 
 * [Install](#Install)
 * [Usage](#Usage) 
@@ -13,8 +19,7 @@ const rmskeleton = (response) =>
 * [Features](#Features)
 * [Contributions](#Constribution)
 * [Tests](#Tests)
-## Description
-${response.description}
+
 ## Install
 ${response.install}
 ## Usage
@@ -22,7 +27,8 @@ ${response.usage}
 ## Credits
 ${response.credits}
 ## License
-${response.license}
+![badge](https://img.shields.io/badge/license-${response.license}-brightgreen)
+This progtam uses ${response.license} License
 ## Badges
 ${response.badges}
 ## Features
@@ -55,20 +61,24 @@ inquirer
       name: 'usage',
       },
       {
-      type: 'input',
-      message: 'Did you collaborate with anyone?',
-      name: 'credits',
-      },
-      {
-      type: 'input',
+      type: 'list',
       message: 'What License would you like?',
-      name: 'license'
+      name: 'license',
+      choices: [
+        "Apache",
+        "Academic",
+        "GNU",
+        "ISC",
+        "MIT",
+        "Mozilla",
+        "Open"
+      ]
       },
       {
-      type: 'input',
-      message: 'Any badges?',
-      name: 'badges',
-      },
+        type: 'input',
+        message: 'Did you collaborate with anyone?',
+        name: 'credits',
+        },
       {
       type: 'input',
       message: 'Does your program have any specific features?',
@@ -76,13 +86,13 @@ inquirer
       },
       {
       type: 'input',
-      message: 'How should others contribute?',
-      name: 'help', 
+      message: 'If you ran tests, what were they?',
+      name: 'test'
       },
       {
-      type: 'input',
-      message: 'What tests did you run?',
-      name: 'test'
+        type: 'input',
+        message: 'what questions does this solve?';
+        name: 'question'
       },
   ])
   .then((response) => {
