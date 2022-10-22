@@ -91,7 +91,7 @@ inquirer
       },
       {
         type: 'input',
-        message: 'what questions does this solve?';
+        message: 'what questions does this solve?',
         name: 'question'
       },
   ])
