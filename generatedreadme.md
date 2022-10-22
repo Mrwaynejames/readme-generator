@@ -1,9 +1,9 @@
-# 
+# hi
 
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
 
 ## Description
-I designed this program to help make an well structured and efficient readme.md. Especially in the begining of you programing journey a good readme can be difficult to make. I had that problem of what to include and how much to write. With this program I take the thinking out of your readme.It already has the correct heading implemented into the program but it also asks you prompts to guide you on what to write. 
+hello
 
 ## Table of Contents
 * [Decription](#Description) 
@@ -17,17 +17,19 @@ I designed this program to help make an well structured and efficient readme.md.
 * [Tests](#Tests)
 
 ## Install
-You install it using initate it using node.js inquirer
+install
 ## Usage
-Respomnd to the prompts that are applicable to your promgram. Once you enter a prompt press enter , if you dont need to answer that prompt hit the space bar and then press enter and it will move you forward to the next question, leaving that prompt blank. when you are all finished you will get a "Success!" at the bottom of your terminal
+use
+## Credits
+nope
 ## License
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
 This progtam uses MIT License
-## Badges
-undefined
 ## Features
-Questions that guide you into building a great readme
+nope
 ## Constribution
-undefined
+none
 ## Tests
 undefined
+## Questions
+Have any questions? Please visit my Github at https://github.com/Mrwaynejames or Email me at mcwilliamsjack96@gmail.com with any further questions.

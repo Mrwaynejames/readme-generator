@@ -36,7 +36,7 @@ ${response.help}
 ## Tests
 ${response.tests}
 ## Questions
-${response.question}`;
+Have any questions? Please visit my Github at https://github.com/${response.github} or Email me at ${response.email} with any further questions.`;
 
 
 inquirer
@@ -97,8 +97,13 @@ inquirer
       },
       {
         type: 'input',
-        message: 'what questions does this solve?',
-        name: 'question'
+        message: 'what is your github username?',
+        name: 'github'
+      },
+      {
+        type: 'input',
+        message: 'what is your email address?',
+        name: 'email'
       },
   ])
   .then((response) => {
